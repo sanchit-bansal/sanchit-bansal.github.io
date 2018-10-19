@@ -27,6 +27,65 @@ font-family: 'Open Sans', sans-serif;
 */
 
 
+.skills,.skills .skill,.skills .skill .skill-title,.skills .skill .skill-bar {
+    width: 100%;
+    float: left
+}
+
+.skills {
+    padding: 15px
+}
+
+.skills .skill {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Montserrat',Arial,sans-serif
+}
+
+.skills .skill .skill-title {
+    color: #222;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 14px
+}
+
+.skills .skill .skill-bar {
+    width: 0;
+    height: 6px;
+    background: #fff;
+    transition: 1s cubic-bezier(1,0,.5,1);
+    -webkit-transition: 1s cubic-bezier(1,0,.5,1);
+    -ms-transition: 1s cubic-bezier(1,0,.5,1)
+}
+
+.skills.active .skill .skill-bar {
+    width: 100%
+}
+
+.skills .skill .skill-bar span {
+    float: left;
+    width: 0;
+    background: #222;
+    height: 6px;
+    position: relative;
+    transition: 1s cubic-bezier(1,0,.5,1);
+    -webkit-transition: 1s cubic-bezier(1,0,.5,1);
+    -ms-transition: 1s cubic-bezier(1,0,.5,1)
+}
+
+.skills .skill .skill-bar span b {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: right;
+    opacity: 0;
+    font-size: 14px;
+    color: #222;
+    font-weight: 400;
+    top: 21px
+}
+
+
 
 
 /* typography
@@ -292,7 +351,25 @@ a.active {
     display: table;
     height: 100vh;
 }
+/* progrress bars
+==================================================*/
 
+.progress-bar-bootstrap {
+    background-color: #009688;
+}
+.progress-bar-sketch {
+    background-color: #f18f00;
+}
+.progress-bar-photoshop {
+    background-color: #425bb5;
+}
+.progress-bar-adobe {
+    background-color: #693938;
+}
+
+.progress-bar-figma {
+    background-color: #333;
+}
 
 /* about section
 ==================================================*/
@@ -303,6 +380,11 @@ a.active {
 
 .about-img-div img {
     margin: 0 auto;
+}
+
+.about-img-div1 img {
+    margin: 12px auto;
+    float: right;
 }
 
 .about-border {
