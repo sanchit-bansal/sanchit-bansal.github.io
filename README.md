@@ -1,8 +1,10 @@
-# UI & UX Designer - Web Developer
+# Sanchit Bansal
+## UI & UX Designer | Web Developer
 
 Please visit: https://sanchit-bansal.github.io/
+![alt text](https://sanchit-bansal.github.io/img/sharing.png)
 
-## License
+### License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">
     <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" />
