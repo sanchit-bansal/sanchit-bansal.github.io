@@ -5,23 +5,39 @@
     <body>
         <script>
             function random_3(){
-                var count1=34
+                var count1=33;
+                var count2=32;
+                var count3=35;
+                var count4=34;
             var myrandom=Math.round(Math.random()*3)
             var link1="https://goo.gl/forms/MonfXLchCCDbMzON2"
             var link2="https://goo.gl/forms/d981Ur1o2YiV132T2"
             var link3="https://goo.gl/forms/k9pMxeiYwv7Y67PI3"
             var link4="https://goo.gl/forms/2hxfDEQuuyE7uw7n1"
-            if (myrandom==0 && count1<=35)
-            {
+            if (myrandom==0 && count1<=35){
             window.location=link1;
             count1++;
+            console.log("cosmic: MF");
+            console.log(count1);
             }
-            else if (myrandom==1 && count1<=35)
+            else if (myrandom==1 && count2<=34){
             window.location=link2
-            else if (myrandom==2 && count1<=35)
+            count2++;
+            console.log("cosmic: FM");
+            console.log(count2);
+            }
+            else if (myrandom==2 && count3<=35){
             window.location=link3
-            else if (myrandom==3)
+            count3++;
+            console.log("divine: MF");
+            console.log(count3);
+            }
+            else if (myrandom==3){
             window.location=link4
+            count4++;
+            console.log("divine: FM");
+            console.log(count4);
+            }
             }
         </script>
       <br><br><br><br>
